@@ -64,7 +64,34 @@
     return cell;
 }
 
-
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    // La logica de la navegacion aqui, creamos y pusheamos el view controller.
+    DetalleViewController *detailViewController = [[DetalleViewController alloc] initWithNibName:@"DetalleViewController" bundle:nil];
+    // Pasar el objeto seleccionado para el Nuevo ViewController.
+    
+    UIColor *colorVista;
+    switch (indexPath.row) {
+        case 0:
+            colorVista = [UIColor redColor];
+            break;
+        case 1:
+            colorVista = [UIColor greenColor];
+            break;
+        case 2:
+            colorVista = [UIColor blueColor];
+            break;
+        case 3:
+            colorVista = [UIColor yellowColor];
+            break;
+        case 4:
+            colorVista = [UIColor blackColor];
+            break;
+        default:
+            break;
+    }
+    detailViewController.view.backgroundColor = colorVista;
+    [self.navigationController pushViewController:detailViewController animated:YES];
+}
 
 
 
