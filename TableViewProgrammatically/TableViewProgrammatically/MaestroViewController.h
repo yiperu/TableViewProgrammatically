@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MaestroViewController : UIViewController
+@interface MaestroViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+
+@property (nonatomic, strong) NSArray *tableList, *colorList;
 
 @end

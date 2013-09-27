@@ -20,6 +20,11 @@
 		CBB9818317F541970084E1B2 /* MaestroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBB9818117F541970084E1B2 /* MaestroViewController.xib */; };
 		CBB9818717F541AA0084E1B2 /* DetalleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB9818517F541AA0084E1B2 /* DetalleViewController.m */; };
 		CBB9818817F541AA0084E1B2 /* DetalleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBB9818617F541AA0084E1B2 /* DetalleViewController.xib */; };
+		CBB9818E17F54A430084E1B2 /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = CBB9818917F54A430084E1B2 /* black.png */; };
+		CBB9818F17F54A430084E1B2 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = CBB9818A17F54A430084E1B2 /* blue.png */; };
+		CBB9819017F54A430084E1B2 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = CBB9818B17F54A430084E1B2 /* green.png */; };
+		CBB9819117F54A430084E1B2 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = CBB9818C17F54A430084E1B2 /* red.png */; };
+		CBB9819217F54A430084E1B2 /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = CBB9818D17F54A430084E1B2 /* yellow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +47,11 @@
 		CBB9818417F541AA0084E1B2 /* DetalleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalleViewController.h; sourceTree = "<group>"; };
 		CBB9818517F541AA0084E1B2 /* DetalleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalleViewController.m; sourceTree = "<group>"; };
 		CBB9818617F541AA0084E1B2 /* DetalleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetalleViewController.xib; sourceTree = "<group>"; };
+		CBB9818917F54A430084E1B2 /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black.png; sourceTree = "<group>"; };
+		CBB9818A17F54A430084E1B2 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
+		CBB9818B17F54A430084E1B2 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		CBB9818C17F54A430084E1B2 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		CBB9818D17F54A430084E1B2 /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +98,11 @@
 		CBB9816817F53FCD0084E1B2 /* TableViewProgrammatically */ = {
 			isa = PBXGroup;
 			children = (
+				CBB9818917F54A430084E1B2 /* black.png */,
+				CBB9818A17F54A430084E1B2 /* blue.png */,
+				CBB9818B17F54A430084E1B2 /* green.png */,
+				CBB9818C17F54A430084E1B2 /* red.png */,
+				CBB9818D17F54A430084E1B2 /* yellow.png */,
 				CBB9817117F53FCD0084E1B2 /* AppDelegate.h */,
 				CBB9817217F53FCD0084E1B2 /* AppDelegate.m */,
 				CBB9817F17F541970084E1B2 /* MaestroViewController.h */,
@@ -172,6 +187,11 @@
 				CBB9817917F53FCD0084E1B2 /* Default-568h@2x.png in Resources */,
 				CBB9818317F541970084E1B2 /* MaestroViewController.xib in Resources */,
 				CBB9818817F541AA0084E1B2 /* DetalleViewController.xib in Resources */,
+				CBB9818E17F54A430084E1B2 /* black.png in Resources */,
+				CBB9818F17F54A430084E1B2 /* blue.png in Resources */,
+				CBB9819017F54A430084E1B2 /* green.png in Resources */,
+				CBB9819117F54A430084E1B2 /* red.png in Resources */,
+				CBB9819217F54A430084E1B2 /* yellow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
