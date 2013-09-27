@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MaestroViewController.h"
 
 @implementation AppDelegate
 
@@ -15,7 +16,13 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+
+    
+    MaestroViewController *masterViewController = [[MaestroViewController alloc] initWithNibName:@"MaestroViewController" bundle:nil];
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:masterViewController];
+    self.window.rootViewController = self.navigationController;
+    
+    [self.window makeKeyAndVisible];    
     return YES;
 }
 
