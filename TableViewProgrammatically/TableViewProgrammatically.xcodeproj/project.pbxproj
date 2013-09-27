@@ -16,6 +16,10 @@
 		CBB9817517F53FCD0084E1B2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CBB9817417F53FCD0084E1B2 /* Default.png */; };
 		CBB9817717F53FCD0084E1B2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBB9817617F53FCD0084E1B2 /* Default@2x.png */; };
 		CBB9817917F53FCD0084E1B2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBB9817817F53FCD0084E1B2 /* Default-568h@2x.png */; };
+		CBB9818217F541970084E1B2 /* MaestroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB9818017F541970084E1B2 /* MaestroViewController.m */; };
+		CBB9818317F541970084E1B2 /* MaestroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBB9818117F541970084E1B2 /* MaestroViewController.xib */; };
+		CBB9818717F541AA0084E1B2 /* DetalleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB9818517F541AA0084E1B2 /* DetalleViewController.m */; };
+		CBB9818817F541AA0084E1B2 /* DetalleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBB9818617F541AA0084E1B2 /* DetalleViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,12 @@
 		CBB9817417F53FCD0084E1B2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		CBB9817617F53FCD0084E1B2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		CBB9817817F53FCD0084E1B2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CBB9817F17F541970084E1B2 /* MaestroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaestroViewController.h; sourceTree = "<group>"; };
+		CBB9818017F541970084E1B2 /* MaestroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaestroViewController.m; sourceTree = "<group>"; };
+		CBB9818117F541970084E1B2 /* MaestroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MaestroViewController.xib; sourceTree = "<group>"; };
+		CBB9818417F541AA0084E1B2 /* DetalleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalleViewController.h; sourceTree = "<group>"; };
+		CBB9818517F541AA0084E1B2 /* DetalleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalleViewController.m; sourceTree = "<group>"; };
+		CBB9818617F541AA0084E1B2 /* DetalleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetalleViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +90,12 @@
 			children = (
 				CBB9817117F53FCD0084E1B2 /* AppDelegate.h */,
 				CBB9817217F53FCD0084E1B2 /* AppDelegate.m */,
+				CBB9817F17F541970084E1B2 /* MaestroViewController.h */,
+				CBB9818017F541970084E1B2 /* MaestroViewController.m */,
+				CBB9818117F541970084E1B2 /* MaestroViewController.xib */,
+				CBB9818417F541AA0084E1B2 /* DetalleViewController.h */,
+				CBB9818517F541AA0084E1B2 /* DetalleViewController.m */,
+				CBB9818617F541AA0084E1B2 /* DetalleViewController.xib */,
 				CBB9816917F53FCD0084E1B2 /* Supporting Files */,
 			);
 			path = TableViewProgrammatically;
@@ -154,6 +170,8 @@
 				CBB9817517F53FCD0084E1B2 /* Default.png in Resources */,
 				CBB9817717F53FCD0084E1B2 /* Default@2x.png in Resources */,
 				CBB9817917F53FCD0084E1B2 /* Default-568h@2x.png in Resources */,
+				CBB9818317F541970084E1B2 /* MaestroViewController.xib in Resources */,
+				CBB9818817F541AA0084E1B2 /* DetalleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +184,8 @@
 			files = (
 				CBB9816F17F53FCD0084E1B2 /* main.m in Sources */,
 				CBB9817317F53FCD0084E1B2 /* AppDelegate.m in Sources */,
+				CBB9818217F541970084E1B2 /* MaestroViewController.m in Sources */,
+				CBB9818717F541AA0084E1B2 /* DetalleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
